@@ -25,7 +25,30 @@ public class hello {
          * '' is not the same as "
          */
 
-         System.out.println("A \"quoted\" String is \'much\' better if you learn  the rules of \"escape sequences.\" Also, \"\" represents an empty String. Don't forget: use \" instead of \"\'\' is not the same as \"");
-System.out.println("*\n**\n***\n****");
+        System.out.println(
+                "A \"quoted\" String is \'much\' better if you learn  the rules of \"escape sequences.\" Also, \"\" represents an empty String. Don't forget: use \" instead of \"\'\' is not the same as \"");
+
+        /*
+         * 4. WAP that prints the following pattern:
+         *
+         **
+         ***
+         **** 
+         */
+        System.out.println("*\n**\n***\n****");
+
+        // 5. WAP prints the following pattern:
+
+        // *********
+
+        // *********
+
+        // *********
+
+        // *********
+        System.out.println("*********\n*********\n*********\n*********");
+
+        
+
     }
 }
